@@ -10,12 +10,26 @@
   flex-wrap: wrap;
   gap: 40px 32px;
   justify-content: center;
-    
 }
+
 .landing_btn{
      display: flex;
   justify-content: center;
   align-items: center;
   gap: 40px;
   text-decoration: none;
+  padding-top: 30px;
 }
+
+
+
+
+.image_section img {
+  height: 250px; /* Set consistent image height */
+  object-fit: contain;
+  
+}
+
+
+
+ 

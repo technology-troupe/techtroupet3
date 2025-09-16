@@ -1,7 +1,7 @@
 .landing_container {
     font-family: 'sans-serif';
     background: linear-gradient(120deg, #f8f8f8 0%, #fff 100%);
-    min-height: 70vh;
+    min-height: 80vh;
     padding: 3rem 0;
     background-image: url("/logos/Bg.svg");
 }
@@ -21,6 +21,7 @@
   align-items: center;
   gap: 40px;
   text-decoration: none;
+  padding-top: 40px;
 }
 .t1{
     color: #2597e7;

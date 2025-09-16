@@ -11,15 +11,17 @@ function chooseCompany(){
             <div className="image_section">
                 <div className="image1"><img src="/logos/Choose1.svg" alt="" />
                 <h2>Global Reach</h2>
-                <p>Serving clients worldwide,from startups to enterprises.</p></div>
+                <p>Serving clients worldwide,from startups to <br/>enterprises.</p></div>
                 <div className="image2"><img src="/logos/choose2.svg" alt="" />
                 <h2>Scalable Solutions</h2>
-                <p>Flexible services tailored to businesses of all sizes.</p></div>
+                <p>Flexible services tailored to businesses of all<br/> sizes.</p></div>
                 <div className="image3"><img src="/logos/choose3.svg" alt="" /><h2>Expertise You Can Trust</h2>
                 <p>Decades of experience delivering quality solutions <br/>for complex problems.</p></div>
             </div>
             <div className="landing_btn"><button>Get a Consultation</button></div>
         </div>
+       
+
         </>
     )
 }
