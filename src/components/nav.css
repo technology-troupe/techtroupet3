@@ -59,3 +59,23 @@
   /* vertical-align: middle; */
   animation: rotateLogo 8s linear infinite; /* Slow continuous rotation */
 }
+
+
+
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-35px);
+  }
+  60% {
+    transform: translateY(-25px);
+  }
+}
+
+.nav-logo:hover {
+  animation: bounce 1s;
+  animation-timing-function: cubic-bezier(0.28, 0.84, 0.42, 1);
+  cursor: pointer;
+}

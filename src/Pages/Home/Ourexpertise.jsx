@@ -47,7 +47,7 @@
         <div className="image6">
           <img src="/logos/setup6.svg" alt="" />
           <h3 className="card-title">E commerce</h3>
-          <p className="card-desc">We create powerful e-commerce solutions that drive sales<br/>and deliver seamless shopping experiences. </p>
+          <p className="card-desc">We create powerful e-commerce solutions that drive <br/> sales and deliver seamless shopping experiences. </p>
         </div>
       </div>
     </div>
