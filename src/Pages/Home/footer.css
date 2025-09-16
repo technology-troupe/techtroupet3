@@ -1,0 +1,24 @@
+    .footer_container{
+        font-family: 'sans-serif';
+        background: linear-gradient(120deg, #f8f8f8 0%, #fff 100%);
+        min-height: 80vh;
+        padding: 3rem 0;
+
+    }
+    .whole_grid{
+        display: flex;
+        justify-content: center;
+        gap: 5rem;
+
+    }
+    .icon{
+        display: flex;
+        gap:1rem;
+    }
+    .lastt{
+        display: flex;
+        justify-content: center;
+        padding: 80px;
+        gap: 1rem;
+
+    }

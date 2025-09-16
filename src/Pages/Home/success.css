@@ -1,0 +1,29 @@
+.landing_container {
+    font-family: 'sans-serif';
+    background: linear-gradient(120deg, #f8f8f8 0%, #fff 100%);
+    min-height: 70vh;
+    padding: 3rem 0;
+}
+.firsttext{
+    text-align: center;
+}
+.whole_section{
+    display: flex;
+    justify-content: center;
+    gap: 3.8rem;
+    margin-bottom: 2.5rem;
+    flex-wrap: wrap;
+}
+.btn{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  text-decoration: none;
+}
+.t1{
+    color: #2597e7;
+}
+.t_last{
+    color: #2597e7;
+}

@@ -1,0 +1,78 @@
+.landing_impact {
+    font-family: 'sans-serif';
+    background: linear-gradient(120deg, #f8f8f8 0%, #fff 100%);
+    min-height: 80vh;
+    padding: 3rem 0;
+}
+
+.landing_text {
+    text-align: center;
+    margin-bottom: 2.5rem;
+}
+
+.landing_text h1 {
+    font-size: 3.5rem;
+    font-weight: 700;
+    margin: 0 0 0.5rem;
+}
+
+.landing_text p {
+    font-size: 1.25rem;
+    color: #222;
+    letter-spacing: 0.015em;
+}
+
+.impact_grid {
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+    margin-bottom: 2.5rem;
+    flex-wrap: wrap;
+}
+
+.impact_item {
+    text-align: center;
+    min-width: 170px;
+}
+
+.impact_value {
+    font-size: 2.8rem;
+    font-weight: 700;
+    color: #111;
+    margin-bottom: 0.5rem;
+}
+
+.impact_label {
+    font-size: 1.1rem;
+    color: #222;
+    font-family: 'Fira Mono', monospace;
+}
+
+.impact_uptime {
+    text-align: center;
+    margin-top: 2.2rem;
+}
+
+.uptime_value {
+    font-size: 5rem;
+    color: #2597e7;
+    font-weight: 700;
+}
+
+.uptime_label {
+    font-size: 1.25rem;
+    color: #2597e7;
+    font-family: 'Fira Mono', monospace;
+    margin-top: 0.7rem;
+}
+
+@media (max-width: 900px) {
+  .impact_grid {
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+  }
+  .impact_item {
+    min-width: 120px;
+  }
+}

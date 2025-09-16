@@ -1,1 +1,0 @@
-# technologyT3
