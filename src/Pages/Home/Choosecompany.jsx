@@ -5,7 +5,7 @@ function chooseCompany(){
         <>
         <div className="landing_conatiner">
             <div className="landing_text">
-                <h1>Why Choose ABC Company?</h1>
+                <h1>Why Choose T3?</h1>
                 <p>We provide end-to-end solutions to help businesses across industries overcome challenges,innovate, and scale</p>
             </div>
             <div className="image_section">

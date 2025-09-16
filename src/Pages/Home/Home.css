@@ -1,5 +1,5 @@
 .landing__container {
-  font-family: 'sans-serif';
+  /* font-family: 'sans-serif'; */
   background: linear-gradient(120deg, #f8f8f8 0%, #fff 100%);
   min-height: 100vh;
   min-width: 100vw;
@@ -69,6 +69,7 @@
   font-size: 1.6rem;
   color: #444;
   margin-bottom: 2rem;
+  font-weight: 700;
 }
 
 .hero__desc--alt {
@@ -83,10 +84,14 @@
 }
 
 .hero__cta {
-  padding: 0.8rem 1.6rem;
+  /* padding: 0.8rem 1.6rem;
   border-radius: 10px;
   font-weight: 600;
+  text-decoration: none; */
+  padding: 0.5rem 1.3rem;
+  border-radius: 4px;
   text-decoration: none;
+  font-weight: 600;
 }
 
 .hero__cta--primary {
@@ -100,6 +105,7 @@
   padding: 2rem 0;
   border-top: 1px solid #ececec;
   margin-bottom: 32px;
+  background: transparent;
   /* background-image: url('/logos/Bg.svg'); */
 }
 

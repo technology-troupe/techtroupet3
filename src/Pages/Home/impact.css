@@ -1,8 +1,9 @@
 .landing_impact {
-    font-family: 'sans-serif';
+    /* font-family: 'sans-serif'; */
     background: linear-gradient(120deg, #f8f8f8 0%, #fff 100%);
     min-height: 80vh;
     padding: 3rem 0;
+    background-image: url("/logos/Bg.svg");
 }
 
 .landing_text {
@@ -45,7 +46,7 @@
 .impact_label {
     font-size: 1.1rem;
     color: #222;
-    font-family: 'Fira Mono', monospace;
+    /* font-family: 'Fira Mono', monospace; */
 }
 
 .impact_uptime {
@@ -62,7 +63,7 @@
 .uptime_label {
     font-size: 1.25rem;
     color: #2597e7;
-    font-family: 'Fira Mono', monospace;
+    /* font-family: 'Fira Mono', monospace; */
     margin-top: 0.7rem;
 }
 

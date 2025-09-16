@@ -8,7 +8,7 @@ function Footer(){
 
             <div className="first_section">
                 <div className="text_block">
-                    <h1 className="t12">ABC company</h1>
+                    <h1 className="t12">T3</h1>
                     <p className="tt1">We help you incorporate AI into your business to get <br/>the max benefit possible, with the help of our creative <br/>engineers. From social media to CRMS, we got you covered. </p>
                     </div>
                     <div className="icon">
