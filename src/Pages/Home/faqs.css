@@ -22,7 +22,7 @@
 .faq-container {
     font-family: 'Inter', 'Helvetica Neue', Arial, sans-serif;
     background: #f7f7f7;
-    min-height: 80vh;
+    min-height: 85vh;
     padding: 4rem 0;
     background-image: url("/logos/Bg.svg");
 }
@@ -38,6 +38,7 @@
     font-weight: 600;
     margin-bottom: 1rem;
     letter-spacing: -0.04em;
+    
 }
 
 .faq-header p {
