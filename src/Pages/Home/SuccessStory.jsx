@@ -4,7 +4,7 @@ function SuccessStory(){
     return(
         <>
      <div className="landing_container">
-        <div className="firsttext">
+        <div className="firsttext"> 
             <h1 className="success">Success Stories</h1>
             <p className="recs">Explore how we've tranformed challenge into opportunities,driving success for businesses across industries worldwide.</p>
         </div>
