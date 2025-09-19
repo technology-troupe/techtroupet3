@@ -45,6 +45,18 @@
 
 
 
+@media (max-width: 900px) {
+  .image-row {
+    gap: 30px;
+  }
+  .image-row img {
+    height: 200px;
+  }
+  .middle_recs {
+    gap: 30px;
+  }
+}
+
 
 
 

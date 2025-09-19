@@ -1,0 +1,118 @@
+.contact_container {
+  max-height: 85vh;
+  min-width: 100vw;
+  background: linear-gradient(109.6deg, #f7fafc 11.2%, #dde5ed 91.1%);
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url('/logos/Bg.svg');
+}
+
+.grid {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  z-index: 2;
+  padding: 5rem 2rem 2rem 2rem;
+}
+
+.grid1 {
+  text-align: left;
+}
+
+.t1 {
+  font-size: 6vw;
+  font-weight: 500;
+  color: #24272e;
+  letter-spacing: 0.01em;
+  margin-bottom: 1.2rem;
+}
+
+.t2 {
+  font-family: 'Fira Mono', 'Menlo', 'Monaco', monospace;
+  font-size: 1.35vw;
+  color: #232222;
+  opacity: 0.8;
+}
+
+.grid2 {
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-left: auto;
+  max-width: 640px;
+  margin-top: 1.3rem;
+}
+
+.t3 {
+  font-family: 'Fira Mono', 'Menlo', 'Monaco', monospace;
+  font-size: 1.25vw;
+  margin-bottom: 2.3rem;
+  color: #232222;
+  opacity: 0.85;
+}
+
+.btn {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+}
+
+.b1 {
+  background: #192734;
+  color: #fff;
+  padding: 1rem 2.5rem;
+  border-radius: 2px;
+  border: none;
+  font-size: 1.18rem;
+  font-weight: 500;
+  letter-spacing: 0.02em;
+  cursor: pointer;
+  margin-right: 0.8rem;
+  transition: background 0.2s, transform 0.2s;
+  box-shadow: 1px 1px 9px rgba(23,36,54,0.14);
+}
+.b1:hover {
+  background: #2a415b;
+  transform: translateY(-3px) scale(1.04);
+}
+
+.arrow {
+  margin-left: 12px;
+  font-size: 1.13em;
+}
+
+.svc-link {
+  color: #222;
+  opacity: 1;
+  text-decoration: underline;
+  font-weight: 500;
+  font-size: 1.13rem;
+  transition: color 0.2s;
+}
+.svc-link:hover {
+  color: #ae4a1c;
+}
+
+/* Responsive */
+@media (max-width: 900px) {
+  .t1 { font-size: 9vw; }
+  .t2, .t3 { font-size: 2.7vw; }
+  .grid2 { max-width: 100%; }
+}
+
+@media (max-width: 600px) {
+  .grid {
+    padding: 2rem 1rem 1rem 1rem;
+  }
+  .t1 { font-size: 2.5rem; }
+  .t2, .t3 { font-size: 1rem; }
+  .btn { flex-direction: column; gap: 1.1rem; align-items: flex-start; }
+}
+

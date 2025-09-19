@@ -1,10 +1,11 @@
 import './contact.css'
 import GetIn from '../Home/GetIn';
+import Hero from './Hero'
 
 function Contact(){
     return(
         <>
-        <div>Contact Page</div>
+        <Hero/>
         <GetIn/>
         </>
     )

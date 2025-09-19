@@ -24,7 +24,7 @@ function Hero(){
     </div>
     <div className="btn">
         <button>Get a consultantion</button>
-        <a href="/">View Case Studies</a>
+        <a href="/casestudy">View Case Studies</a>
     </div>
    
     </div>

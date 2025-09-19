@@ -32,6 +32,7 @@ import Contact from './Pages/contact/Contact';
             <Route path="/casestudy" element={<CaseStudy />} />
             <Route path="/solution" element={<Solution/>}/>
             <Route path="/contact" element={<Contact/>}/>
+          
             
             
             
