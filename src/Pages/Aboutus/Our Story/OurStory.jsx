@@ -8,7 +8,7 @@
                     <section class="story-section">
         <h1>Our Story</h1>
         <p>
-        Founded on the principles of innovation and collaboration, ABC Company was created to bridge the gap between complex engineering challenges and simplified solutions. Over the years, we've grown into a global team of experts passionate about helping businesses scale, innovate, and thrive in an ever-changing digital landscape.
+        Founded on the principles of innovation and collaboration, T3 was created to bridge the gap between complex engineering challenges and simplified solutions. Over the years, we've grown into a global team of experts passionate about helping businesses scale, innovate, and thrive in an ever-changing digital landscape.
         </p>
         <div class="timeline">
         <div class="timeline-item">
@@ -16,7 +16,7 @@
             <div class="timeline-content">
             <h2>The Beginning</h2>
             <p>
-                ABC Company was founded with a vision to provide innovative engineering solutions to startups, focusing on reliability and affordability.
+                T3 was founded with a vision to provide innovative engineering solutions to startups, focusing on reliability and affordability.
             </p>
             </div>
         </div>
@@ -34,7 +34,7 @@
             <div class="timeline-content">
             <h2>Going Global</h2>
             <p>
-                ABC Company expanded its reach by serving clients across multiple countries, building strong partnerships with multinational corporations.
+                T3 expanded its reach by serving clients across multiple countries, building strong partnerships with multinational corporations.
             </p>
             </div>
         </div>
@@ -70,7 +70,7 @@
             <div class="timeline-content">
             <h2>A Trusted Partner</h2>
             <p>
-                ABC Company continues to innovate, serving startups, SMBs, and enterprises with a focus on scalable solutions, global collaboration, and unmatched reliability.
+                T3 continues to innovate, serving startups, SMBs, and enterprises with a focus on scalable solutions, global collaboration, and unmatched reliability.
             </p>
             </div>
         </div>

@@ -1,0 +1,57 @@
+.featured_container {
+    font-family: 'sans-serif';
+    background: linear-gradient(120deg, #f8f8f8 0%, #fff 100%);
+    min-height: 100vh;
+    padding: 3rem 0;
+    background-image: url('/logos/Bg.svg');
+}
+.text1{
+    padding-bottom: 20px;
+}
+
+.grid1, .grid2, .grid3 {
+    
+    max-width: 340px;
+    min-width: 300px;
+    margin: 0 0 32px 0; 
+    padding: 24px 20px;
+    background-color: transparent;
+}
+
+
+.grid1 img{
+    height: 250px; 
+  object-fit: contain;
+
+}
+.grid2 img{
+    height: 250px; 
+  object-fit: contain;
+}
+.grid3 img{
+    height: 250px; 
+  object-fit: contain;
+}
+.text1{
+    text-align: center;
+}
+.text{
+    color: blue;
+    padding-top: 20px;
+}
+.ss{
+    padding-top: 20px;
+    font-weight: 600;
+}
+.mm{
+    padding-top: 20px;
+}
+
+.grid1 img, .grid2 img, .grid3 img {
+  transition: transform 0.3s ease; /* Smooth transition for zoom */
+}
+
+.grid1 img:hover, .grid2 img:hover, .grid3 img:hover {
+  transform: scale(1.1); /* Zoom in to 110% */
+  cursor: pointer; /* Optional: changes cursor to pointer on hover */
+}

@@ -26,8 +26,8 @@ function SuccessStory(){
                     <h3 className="t_last">CTO, HealthCare Enterprise</h3>
                 </div>
             </div>
+        <a href="/casestudy"><div className="btn"><button>View Case Studies</button></div></a>
         
-        <div className="btn"><button>View Case Studies</button></div>
 
      </div>
         </>

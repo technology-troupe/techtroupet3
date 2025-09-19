@@ -1,0 +1,57 @@
+.landing_container {
+  font-family: 'sans-serif';
+  background: linear-gradient(120deg, #f8f8f8 0%, #fff 100%);
+  min-height: 100vh;
+  min-width: 100vw;
+  background-image: url("/logos/Bg.svg");
+  
+  
+  
+}
+.landing_tt{
+    text-align: center;
+}
+
+.middle_recs {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  justify-content: center;
+  align-items: center;
+}
+
+.image-row {
+  display: flex;
+  flex-direction: row;
+  gap: 60px;
+  justify-content: center;
+  align-items: flex-start;
+  padding-top: 20px;
+}
+
+.image-row img {
+  height: 250px; 
+  object-fit: contain;
+  
+}
+
+.image-row img:hover {
+  transform: scale(1.08);
+  transition: transform 0.5s ease;
+}
+.card-title{
+    padding-top: 20px;
+    font-weight: 700;
+}
+
+
+
+
+
+
+
+
+
+
+
+
