@@ -26,7 +26,7 @@ function Footer(){
                 <h1 className="navv">Navigation</h1>
                 </div>
                 <div className="link_grid">
-                    <div className="link1"><a href="#">About Us</a></div>
+                    <div className="link1"><a href="/about">About Us</a></div>
                     <div className="link2"><a href="#">Case Studies</a></div>
                     <div className="link3"><a href="#">Careers</a></div>
                     <div className="link4"><a href="#">Contact Us</a></div>
