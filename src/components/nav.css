@@ -1,3 +1,4 @@
+@import "tailwindcss";
 
 .landing__nav {
   display: flex;
