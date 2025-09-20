@@ -28,8 +28,8 @@ function Footer(){
                 <div className="link_grid">
                     <div className="link1"><a href="/about">About Us</a></div>
                     <div className="link2"><a href="/casestudy">Case Studies</a></div>
-                    <div className="link3"><a href="#">Careers</a></div>
-                    <div className="link4"><a href="#">Contact Us</a></div>
+                    <div className="link3"><a href="/contact">Careers</a></div>
+                    <div className="link4"><a href="/contact">Contact Us</a></div>
                     <div className="link5"><a href="#">T&C</a></div>
                     <div className="link6"><a href="#">Privacy Policy</a></div>
                 </div>
@@ -52,7 +52,7 @@ function Footer(){
             </div>
 
             <div className="lastt">
-                <div className="tag">ABC Company</div>
+                <div className="tag">T3 Company</div>
                 <div className="i">|</div>
                 <div className="right">All Rights Reserved</div>
             </div>
