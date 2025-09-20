@@ -23,7 +23,8 @@ function Hero(){
         From startups to multinational enterprises, our services are designed to address your unique challenges and help you achieve measurable success.
     </div>
     <div className="btn">
-        <button>Get a consultantion</button>
+      <a href="/contact"><button>Get a consultantion</button></a>
+        
         <a href="/solution">View Our Services</a>
     </div>
    

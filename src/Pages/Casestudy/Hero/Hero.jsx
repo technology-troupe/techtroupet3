@@ -23,7 +23,8 @@ function Hero(){
       Explore how T3 has empowered businesses worldwide with tailored engineering solutions that deliver measurable results.
     </div>
     <div className="btn">
-        <button>Get a consultantion</button>
+      <a href="/contact"><button>Get a consultantion</button></a>
+        
         <a href="/casestudy">View Case Studies</a>
     </div>
    

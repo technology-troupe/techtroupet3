@@ -48,8 +48,7 @@ function Home(){
       </div>
       <div className="client__item">
         <img src="/logos/Nietzsc.svg" alt="Nietzsche" />
-        
-      </div>
+      </div> 
     </div>
   </div>
 </div>
