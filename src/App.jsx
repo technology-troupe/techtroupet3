@@ -1,3 +1,4 @@
+
 import React from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Home from "./Pages/Home/Home";
@@ -14,12 +15,7 @@ import Main from './Pages/Main';
 import CaseStudy from './Pages/Casestudy/CaseStudy';
 import Solution from './Pages/Solution/Solution';
 import Contact from './Pages/contact/Contact';
-    
-    
 
-
-
-    
 
     function App() {
       return (
