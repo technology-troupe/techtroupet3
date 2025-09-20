@@ -26,12 +26,15 @@
 }
 
 .t1 {
-  font-size: 6vw;
-  font-weight: 500;
+  font-size: 4rem;
+  font-weight: 700;
   color: #24272e;
   letter-spacing: 0.01em;
   margin-bottom: 1.2rem;
 }
+
+
+
 
 .t2 {
   font-family: 'Fira Mono', 'Menlo', 'Monaco', monospace;
@@ -100,9 +103,9 @@
   color: #ae4a1c;
 }
 
-/* Responsive */
+
 @media (max-width: 900px) {
-  .t1 { font-size: 9vw; }
+  .t1 { font-size: 4rem; }
   .t2, .t3 { font-size: 2.7vw; }
   .grid2 { max-width: 100%; }
 }
@@ -114,5 +117,4 @@
   .t1 { font-size: 2.5rem; }
   .t2, .t3 { font-size: 1rem; }
   .btn { flex-direction: column; gap: 1.1rem; align-items: flex-start; }
-}
-
+} 

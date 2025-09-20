@@ -14,7 +14,7 @@ function Hero(){
             <div className="grid2">
                 <p className="t3">Whether you need consulting, development, or robust digital solutions, T3 is here to help.</p>
                 <div className="btn">
-                    <a href=""><button className='b1'>Contact Us</button></a>
+                    <a href="/contact"><button className='b1'>Contact Us</button></a>
                     <a href="/solution">View Our Services</a>
                 </div>
             </div>
