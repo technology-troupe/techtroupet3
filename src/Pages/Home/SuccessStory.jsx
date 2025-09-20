@@ -4,7 +4,7 @@ function SuccessStory(){
     return(
         <>
      <div className="landing_container">
-        <div className="firsttext">
+        <div className="firsttext"> 
             <h1 className="success">Success Stories</h1>
             <p className="recs">Explore how we've tranformed challenge into opportunities,driving success for businesses across industries worldwide.</p>
         </div>
@@ -26,8 +26,8 @@ function SuccessStory(){
                     <h3 className="t_last">CTO, HealthCare Enterprise</h3>
                 </div>
             </div>
+        <a href="/casestudy"><div className="btn"><button>View Case Studies</button></div></a>
         
-        <div className="btn"><button>View Case Studies</button></div>
 
      </div>
         </>
@@ -36,3 +36,5 @@ function SuccessStory(){
 
 
 export default SuccessStory;
+
+

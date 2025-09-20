@@ -1,0 +1,13 @@
+    .focus_container {
+    background: linear-gradient(120deg, #f8f8f8 0%, #fff 100%);
+    min-height: 80vh;
+    min-width: 100vw;
+    background-image: url('/logos/Bg.svg');
+    text-align: center;
+    padding-top: 200px;
+    
+    }
+   
+.focus_container p{
+    padding-top: 50px ;
+}
