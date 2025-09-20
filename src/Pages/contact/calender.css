@@ -1,0 +1,10 @@
+.div{
+    background-image:url("Bg.svg");
+    min-height: 80vh;
+    background-color: transparent;
+}
+.calendly-inline-widget{
+    background-image: url("Bg.svg");
+    background-color: transparent;
+    
+}

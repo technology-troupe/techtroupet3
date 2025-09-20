@@ -13,11 +13,17 @@
     
     max-width: 340px;
     min-width: 300px;
-    margin: 0 0 32px 0; 
+    /* margin: 0 0px 32px 0px; */
+   margin: 0 0px 32px 0px;
     padding: 24px 20px;
     background-color: transparent;
 }
-
+.whole_grid {
+  display: flex;            /* Or use: display: grid; */
+  justify-content: center;  /* Center horizontally */
+  gap: 8px;                /* Controls the space between columns; reduce to close gap */
+  flex-wrap: wrap;          /* So it is responsive and items wrap */
+}
 
 .grid1 img{
     height: 250px; 

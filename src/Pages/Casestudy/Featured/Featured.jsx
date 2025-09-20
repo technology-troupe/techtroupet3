@@ -25,10 +25,10 @@ function Featured(){
             <div className="img2"><img src="/logos/f2.svg" alt="" /></div>
             <div className="text"><h2>Accelerating MVP Development for a <br/>FinTech Startup</h2></div>
             <div><h3 className='ss'>Challenge</h3>
-            <p className='mm'>The startup needed a stable MVP within a tight timeline to secure investor funding.</p>
+            <p className='mm'>The startup needed a stable MVP within a tight timeline <br/>to secure investor funding.</p>
             </div>
             <div><h3 className='ss'>Solution</h3>
-            <p className='mm'>Our automated teams delivered a bug-free MVP in just 6 weeks, using agile development practices to meet the client’s requirements.</p></div>
+            <p className='mm'>Our automated teams delivered a bug-free MVP in just <br/>6 weeks, using agile development practices to meet the <br/>client’s requirements.</p></div>
             <div><a href="">Read Full Case Study</a></div>
         </div>
 
