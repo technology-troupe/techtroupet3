@@ -1,82 +1,150 @@
-@import "tailwindcss";
+  @import "tailwindcss";
 
-.landing__nav {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  background: #fff;
-  border-bottom: 1px solid #ececec;
-  position: sticky;
-  top: 0;
-}
-
-.landing__nav-brand {
-  display: flex;
-  align-items: center;
-  gap: 15px;
-}
-
-.landing__nav-title {
-  font-weight: bold;
-  font-size: 1.1rem;
-}
-
-.landing__nav-links {
-  display: flex;
-  align-items: center;
-  gap: 25px;
-}
-
-.nav__link {
-  color: #333;
-  text-decoration: none;
-  font-weight: 500;
-}
-
-.nav__cta {
-  background: #102334;
-  color: #fff;
-  padding: 0.5rem 1.3rem;
-  border-radius: 4px;
-  text-decoration: none;
-  font-weight: 600;
-}
-
-
-@keyframes rotateLogo {
-  0% {
-    transform: rotate(0deg);
+  .landing__nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #fff;
+    border-bottom: 1px solid #ececec;
+    position: sticky;
+    top: 0;
   }
-  100% {
-    transform: rotate(360deg);
+
+  .landing__nav-brand {
+    display: flex;
+    align-items: center;
+    gap: 15px;
   }
-}
 
-.nav-logo {
-  height: 80px;
-  width: auto;
-  display: block;
-  object-fit: contain;
-  /* vertical-align: middle; */
-  animation: rotateLogo 8s linear infinite; /* Slow continuous rotation */
-}
-
-
-
-@keyframes bounce {
-  0%, 20%, 50%, 80%, 100% {
-    transform: translateY(0);
+  .landing__nav-title {
+    font-weight: bold;
+    font-size: 1.1rem;
   }
-  40% {
-    transform: translateY(-35px);
-  }
-  60% {
-    transform: translateY(-25px);
-  }
-}
 
-.nav-logo:hover {
-  animation: bounce 1s;
-  animation-timing-function: cubic-bezier(0.28, 0.84, 0.42, 1);
-  cursor: pointer;
-}
+  .landing__nav-links {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+  }
+
+  .nav__link {
+    color: #333;
+    text-decoration: none;
+    font-weight: 500;
+  }
+
+  .nav__cta {
+    background: #102334;
+    color: #fff;
+    padding: 0.5rem 1.3rem;
+    border-radius: 4px;
+    text-decoration: none;
+    font-weight: 600;
+  }
+
+
+  @keyframes rotateLogo {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+
+  .nav-logo {
+    height: 80px;
+    width: auto;
+    display: block;
+    object-fit: contain;
+    /* vertical-align: middle; */
+    animation: rotateLogo 8s linear infinite; /* Slow continuous rotation */
+  }
+
+
+
+  @keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {
+      transform: translateY(0);
+    }
+    40% {
+      transform: translateY(-35px);
+    }
+    60% {
+      transform: translateY(-25px);
+    }
+  }
+
+  .nav-logo:hover {
+    animation: bounce 1s;
+    animation-timing-function: cubic-bezier(0.28, 0.84, 0.42, 1);
+    cursor: pointer;
+  }
+
+
+
+
+
+  .landing__nav-links .nav__link {
+    position: relative;
+    transition: color 0.3s cubic-bezier(0.4,0,0.2,1);
+    /* Prepare underline animation */
+  }
+
+  .landing__nav-links .nav__link::after {
+    content: '';
+    position: absolute;
+    left: 0; right: 0; bottom: -5px;
+    height: 2px;
+    background: #102334;
+    transform: scaleX(0);
+    transition: transform 0.3s cubic-bezier(0.4,0,0.2,1);
+    /* Underline hidden initially */
+  }
+
+  .landing__nav-links .nav__link:hover,
+  .landing__nav-links .nav__link:focus {
+    color: #102334;
+  }
+
+  .landing__nav-links .nav__link:hover::after,
+  .landing__nav-links .nav__link:focus::after {
+    transform: scaleX(1);
+    /* Underline expands on hover */
+  }
+
+  .landing__nav-links {
+    animation: appearLinks 1.2s cubic-bezier(0.4,0,0.2,1) 0.2s backwards;
+  }
+
+  @keyframes appearLinks {
+    0% {
+      opacity: 0;
+      transform: translateY(-16px) scale(0.96);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0) scale(1);
+    }
+  }
+
+
+
+  @keyframes bounceZoomOut {
+    0%, 20%, 50%, 80%, 100% {
+      transform: scale(1) translateY(0);
+    }
+    40% {
+      transform: scale(0.9) translateY(-10px);
+    }
+    60% {
+      transform: scale(0.95) translateY(-6px);
+    }
+  }
+
+  .landing__nav-links .nav__link:hover,
+  .landing__nav-links .nav__link:focus {
+    animation: bounceZoomOut 0.8s forwards;
+    color: #1a8bdd; 
+    transform-origin: center bottom;
+  }
