@@ -5,7 +5,7 @@ import Home from "./Pages/Home/Home";
 import Ourexpertise from './Pages/Home/ourexpertise';
 import OurImpact from "./Pages/Home/ourimpact";
 import Choosecompany from './Pages/Home/chooseCompany';
-import SuccessStory from './Pages/Home/successStory';
+import SuccessStory from './Pages/Home/SuccessStory';
 import Faqs from './Pages/Home/faqs';
 import GetIn from './Pages/Home/GetIn';
 import Footer from './Pages/Home/Footer';
