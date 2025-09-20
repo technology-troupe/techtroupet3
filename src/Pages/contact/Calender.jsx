@@ -12,10 +12,11 @@ function CalendlyEmbed() {
 
   return (
     <div>
-      <h2>Book a Meeting</h2>
+      <h2 className='pp'>Book a Meeting</h2>
       <div
         className="calendly-inline-widget"
-        data-url="https://calendly.com/pathak-mohit426"
+        // data-url="https://calendly.com/pathak-mohit426"
+        data-url="https://calendly.com/pathak-mohit426/30min"
         style={{ minWidth: "320px", height: "700px" }}
       ></div>
     </div>

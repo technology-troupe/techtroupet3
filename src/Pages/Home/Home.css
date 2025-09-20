@@ -214,3 +214,19 @@
   transition: transform 0.3s ease;
 }
 
+
+
+.clients__list {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 40px;
+  animation: marquee 14s linear infinite;
+  /* Remove justify-content: center if present */
+  /* Optionally set white-space: nowrap if you see wrap issues */
+}
+
+@keyframes marquee {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}

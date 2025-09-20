@@ -7,8 +7,9 @@ function Contact(){
     return(
         <>
         <Hero/>
-        <GetIn/>
         <CalendlyEmbed/>
+        <GetIn/>
+        
         </>
     )
 }
