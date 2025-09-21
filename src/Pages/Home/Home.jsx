@@ -12,10 +12,10 @@ function Home(){
   
   <section className="landing__hero">
     <p className="hero__resc">SOFTWARE.TECHNICAL CONSULTANCY</p>
-    <h1 className="hero__title">Your Business is the Story<br />Tech is the Medium.</h1>
-    <p className="hero__desc">
+    <h1 className="hero__title">Your Business is the Story<br />Tech is the Medium</h1>
+    <h1 className="hero__desc">
       We're the troupe
-    </p>
+    </h1>
     <div className="hero__actions">
       <a href="#" className="hero__cta hero__cta--primary">Ready to Start</a>
     </div>

@@ -5,7 +5,7 @@
   background-image: url('/logos/Bg.svg');
 }
 
-.landing__nav {
+/* .landing__nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -49,7 +49,7 @@
   border-radius: 4px;
   text-decoration: none;
   font-weight: 600;
-}
+} */
 
 .landing__hero {
   max-width: 900px;
@@ -67,18 +67,18 @@
 .hero__desc {
   font-size: 1.6rem;
   color: #444;
-  margin-bottom: 2rem;
+  /* margin-bottom: 2rem; */
   font-weight: 700;
 }
 
 .hero__desc--alt {
-  margin-bottom: 2rem;
+  /* margin-bottom: 2rem; */
   color: #444;
 }
 
 .hero__actions {
   display: flex;
-  gap: 10px;
+  /* gap: 10px; */
   justify-content: center;
 }
 
@@ -125,8 +125,6 @@
   
 }
 
-
-/* Keyframes */
 @keyframes fadeSlideScaleIn {
   0% {
     opacity: 0;
@@ -149,13 +147,11 @@
   }
 }
 
-/* Animate container with gentle scale */
 .landing__container {
   animation: fadeSlideScaleIn 1.4s ease forwards;
   animation-delay: 0.3s;
 }
 
-/* Animate all major text elements with stagger */
 .landing__container h1,
 .landing__container h2,
 .landing__container h3,
@@ -166,7 +162,6 @@
   animation: fadeSlideScaleIn 1.3s ease forwards;
 }
 
-/* Staggered delays for sequential appearance */
 .landing__container h1 {
   animation-delay: 0.7s;
 }
@@ -184,20 +179,17 @@
   animation-delay: 1.3s;
 }
 
-/* Hover pulse effect on buttons and links */
 .landing__container button:hover,
 .landing__container a:hover {
   animation: pulse 1.2s infinite ease-in-out;
   cursor: pointer;
 }
 
-/* Additional subtle pop effect on hero title */
 .hero__title {
   animation: fadeSlideScaleIn 2s cubic-bezier(0.68, -0.55, 0.27, 1.55) forwards;
   animation-delay: 0.4s;
 }
 
-/* Text shadow glow on hover for headings */
 .landing__container h1:hover,
 .landing__container h2:hover,
 .landing__container h3:hover {
@@ -222,8 +214,6 @@
   align-items: center;
   gap: 40px;
   animation: marquee 14s linear infinite;
-  /* Remove justify-content: center if present */
-  /* Optionally set white-space: nowrap if you see wrap issues */
 }
 
 @keyframes marquee {

@@ -3,7 +3,7 @@ import './footer.css'
 function Footer(){
     return(
         <>
-        <div className="footer_container">
+        {/* <div className="footer_container">
             <div className="whole_grid">
 
             <div className="first_section">
@@ -56,7 +56,36 @@ function Footer(){
                 <div className="i">|</div>
                 <div className="right">All Rights Reserved</div>
             </div>
-        </div>
+        </div> */}
+
+
+        <footer class="footer">
+  <div class="footer-container">
+    <div class="footer-about">
+      <h3>T3</h3>
+      <p>Expert IT Consultancy & Custom Technology Solutions</p>
+    </div>
+    <div class="footer-links">
+      <h4>Quick Links</h4>
+      <ul>
+        <li><a href="/about">About Us</a></li>
+        <li><a href="/casestudy">Case Studies</a></li>
+        <li><a href="/solution">Solution</a></li>
+        <li><a href="/contact">Contact Us</a></li>
+      </ul>
+    </div>
+    <div class="footer-contact">
+      <h4>Contact</h4>
+      <p>Email: contact@technologytroupe.com</p>
+      <p>Phone: +91 0000000000</p>
+      <p>Address: 123 Bareilly UP </p>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <p>&copy; 2025 T3. All rights reserved.</p>
+  </div>
+</footer>
+
         </>
     )
 }
