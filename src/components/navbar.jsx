@@ -18,13 +18,9 @@ const navbar = () => {
     </div>
   
     <a href="#" className="nav__cta">Ready To Start </a>
-  {/* <div className=' ml-50 ' >
-    <Button/>
-    </div> */}
   </nav>
     </div>
   )
 }
 
 export default navbar
-

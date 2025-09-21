@@ -11,7 +11,7 @@ function CalendlyEmbed() {
   }, []);
 
   return (
-    <div>
+    <div className='landing_container'>
       <h2 className='pp'>Book a Meeting</h2>
       <div
         className="calendly-inline-widget"

@@ -1,26 +1,4 @@
-/* .landing_conatiner{
-    font-family: 'sans-serif';
-    background: linear-gradient(120deg, #f8f8f8 0%, #fff 100%);
-    min-height: 80vh;
-    padding: 3rem 0;
-
-}
-.fist_text{
-    text-align: center;
-}
-.ques{
-    text-align: center;
-    font-size: 2rem;
-    font-weight: 700;
-    margin: 0 0 0.5rem;
-    
-}
-.ans{
-    font-weight: lighter;
-} */
-
 .faq-container {
-    font-family: 'Inter', 'Helvetica Neue', Arial, sans-serif;
     background: #f7f7f7;
     min-height: 85vh;
     padding: 4rem 0;
