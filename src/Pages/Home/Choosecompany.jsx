@@ -1,4 +1,5 @@
 import "./chooseCompany.css"
+import { Link } from 'react-router-dom';
 
 function chooseCompany(){
     return(
@@ -18,7 +19,7 @@ function chooseCompany(){
                 <div className="image3"><img src="/logos/choose3.svg" alt="" /><h2>Expertise You Can Trust</h2>
                 <p>Decades of experience delivering quality solutions <br/>for complex problems.</p></div>
             </div>
-            <div className="landing_btn"><a href="/contact"><button>Get a Consultation</button></a></div>
+            <div className="landing_btn"> <Link to="/contact"><button>Get a consultation</button></Link></div>
         </div>
        
 

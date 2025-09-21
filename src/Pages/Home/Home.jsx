@@ -50,6 +50,8 @@ function Home(){
         <img src="/logos/Nietzsc.svg" alt="Nietzsche" />
       </div> 
     </div>
+
+
   </div>
 </div>
         </>
@@ -60,3 +62,6 @@ function Home(){
 
 
 export default Home;
+
+
+
