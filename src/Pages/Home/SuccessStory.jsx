@@ -17,12 +17,12 @@ function SuccessStory(){
                 </div>
                 <div className="second_section">
                     <h2 className="t1">MVP Delivered Ahead Of <br/>Schedule</h2>
-                    <p className="tt1">As a starup, we were looking <br/> for a reliable partner to build <br/>our MVP. ABC Company Exceeded <br/> our expectations, delivering a bug-free product.</p>
+                    <p className="tt1">As a starup, we were looking <br/> for a reliable partner to build <br/>our MVP. T3 Exceeded <br/> our expectations, delivering a bug-free product.</p>
                     <h3 className="t_last">Founder, T3 Startup</h3>
                 </div>
                 <div className="third_section">
                     <h2 className="t1">Seamless Legacy System<br/> Migration</h2>
-                    <p className="tt1">The legacy system migration ABC <br/> Company handled for us was <br/>seamless. We were impressed <br/>with their attention to detail, proactive communication.</p>
+                    <p className="tt1">The legacy system migration T3 <br/> Company handled for us was <br/>seamless. We were impressed <br/>with their attention to detail, proactive communication.</p>
                     <h3 className="t_last">CTO, HealthCare Enterprise</h3>
                 </div>
             </div>
