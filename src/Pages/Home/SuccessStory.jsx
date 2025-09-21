@@ -1,4 +1,5 @@
 import "./success.css";
+import { Link } from 'react-router-dom';
 
 function SuccessStory(){
     return(
@@ -26,7 +27,8 @@ function SuccessStory(){
                     <h3 className="t_last">CTO, HealthCare Enterprise</h3>
                 </div>
             </div>
-        <a href="/casestudy"><div className="btn"><button>View Case Studies</button></div></a>
+            <Link to='/casestudy'><div className="btn"><button>View Case Studies</button></div></Link>
+        
         
 
      </div>

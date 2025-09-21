@@ -1,10 +1,15 @@
+*{
+    font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+font-weight: 400;
+
+}
+
 .landing_container {
   background: linear-gradient(120deg, #f8f8f8 0%, #fff 100%);
   min-height: 100vh;
   min-width: 100vw;
   background-image: url("/logos/Bg.svg");
-  
-  
+
   
 }
 .landing_tt{
@@ -14,22 +19,25 @@
 .middle_recs {
   display: flex;
   flex-direction: column;
-  gap: 40px;
+  gap: 30px;
   justify-content: center;
   align-items: center;
+  
 }
 
 .image-row {
   display: flex;
   flex-direction: row;
-  gap: 60px;
+  gap: 50px;
   justify-content: center;
   align-items: flex-start;
 }
 
 .image-row img {
   height: 250px; 
+  width: 350px;
   object-fit: contain;
+  border-radius: 16px;
   
 }
 

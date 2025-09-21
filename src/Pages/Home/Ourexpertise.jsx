@@ -14,19 +14,19 @@
     <div className="middle_recs">
       <div className="image-row">
         <div className="image1">
-          <img src="/logos/setup1.svg" alt=""/>
+          <img src="/logos/it.jpg" alt=""/>
           <h3 className="card-title">IT Consultancy</h3>
           <p className="card-desc">We provide expert IT consultancy to help businesses <br/> leverage technology for growth and innovation.
           </p>
         </div>
         <div className="image2">
-          <img src="/logos/setup2.png" alt="" />
+          <img src="/logos/api.webp" alt="" />
           <h3 className="card-title">Custom API</h3>
           <p className="card-desc">We build custom APIs tailored to connect your systems <br/>seamlessly and power your business workflows.
           </p>
         </div>
         <div className="image3">
-          <img src="/logos/setup3.svg" alt="" />
+          <img src="/logos/ll1.webp" alt="" />
           <h3 className="card-title">Landing Pages</h3>
           <p className="card-desc">We design high-converting landing pages that <br/>capture attention and drive action.
           </p>
@@ -34,18 +34,18 @@
       </div>
       <div className="image-row">
         <div className="image4">
-          <img src="/logos/setup4.svg" alt="" />
+          <img src="/logos/ec.png" alt="" />
           <h3 className="card-title">Automations and Scraping</h3>
           <p className="card-desc">We develop smart automations and web scraping solutions <br/>to save time and unlock valuable insights.
           </p>
         </div>
         <div className="image5">
-          <img src="/logos/setup5.svg" alt="" />
+          <img src="/logos/crmm.jpg" alt="" />
           <h3 className="card-title">Customized CRMs</h3>
           <p className="card-desc">We build customized CRMs designed to streamline your<br/> processes and boost customer relationships.</p>
         </div>
         <div className="image6">
-          <img src="/logos/setup6.svg" alt="" />
+          <img src="/logos/ww.webp" alt="" />
           <h3 className="card-title">E commerce</h3>
           <p className="card-desc">We create powerful e-commerce solutions that drive <br/> sales and deliver seamless shopping experiences. </p>
         </div>

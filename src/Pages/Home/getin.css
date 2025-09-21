@@ -1,26 +1,26 @@
-.landing_conatiner{
-    background: linear-gradient(120deg, #f8f8f8 0%, #fff 100%);
-    min-height: 80vh;
-    padding: 3rem 0;
-    background-image: url("/logos/Bg.svg");
+  .landing_conatiner{
+      background: linear-gradient(120deg, #f8f8f8 0%, #fff 100%);
+      min-height: 80vh;
+      padding: 3rem 0;
+      background-image: url("/logos/Bg.svg");
 
-}
-.main_text{
-    text-align: center;
-}
-.middle_section{
-    display: flex;
-    justify-content: center;
-    gap:3rem;
-}
+  }
+  .main_text{
+      text-align: center;
+  }
+  .middle_section{
+      display: flex;
+      justify-content: center;
+      gap:3rem;
+  }
 
-.middle_section {
-  transition: transform 0.3s ease;
-}
+  .middle_section {
+    transition: transform 0.3s ease;
+  }
 
-.middle_section img:hover {
- transform: scale(1.08);
-  transition: transform 0.5s ease;
-}
+  .middle_section img:hover {
+  transform: scale(1.08);
+    transition: transform 0.5s ease;
+  }
 
 
