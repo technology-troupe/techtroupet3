@@ -1,4 +1,4 @@
-  .landing_conatiner{
+  /* .landing_conatiner{
       background: linear-gradient(120deg, #f8f8f8 0%, #fff 100%);
       min-height: 80vh;
       padding: 3rem 0;
@@ -23,4 +23,60 @@
     transition: transform 0.5s ease;
   }
 
+ */
 
+
+
+ .landing_conatiner {
+    background: linear-gradient(120deg, #f8f8f8 0%, #fff 100%);
+    min-height: 80vh;
+    padding: 3rem 1rem; /* add horizontal padding for smaller screens */
+    background-image: url("/logos/Bg.svg");
+    box-sizing: border-box; /* for consistent padding behavior */
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.main_text {
+    text-align: center;
+    padding: 0 1rem; /* add horizontal padding for mobile */
+}
+
+.middle_section {
+    display: flex;
+    justify-content: center;
+    gap: 2rem; /* reduce gap on smaller screens */
+    flex-wrap: wrap; /* allow wrapping on small screens */
+    transition: transform 0.3s ease;
+    padding: 0 1rem; /* horizontal padding */
+    box-sizing: border-box;
+}
+
+.middle_section img:hover {
+    transform: scale(1.08);
+    transition: transform 0.5s ease;
+}
+
+/* Responsive font sizing and layout adjustments */
+@media (max-width: 768px) {
+    .middle_section {
+        gap: 1.5rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .landing_conatiner {
+        padding: 2rem 0.8rem;
+    }
+
+    .middle_section {
+        gap: 1rem;
+        justify-content: center;
+    }
+
+    .middle_section img {
+        width: 100%; /* make images full width in container on very small screens */
+        max-width: 300px; /* optional max width */
+        height: auto;
+    }
+}
