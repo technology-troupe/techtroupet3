@@ -146,3 +146,30 @@
   transition: transform 0.3s ease;
 }
 
+
+
+
+
+
+/* Override specific animation delays for sequence */
+.hero__title {
+  animation-delay: 0.7s !important;
+}
+
+.hero__desc {
+  opacity: 0;
+  animation: fadeSlideScaleIn 1.3s ease forwards;
+  animation-delay: 1.1s !important;
+}
+
+.clients__heading {
+  opacity: 0;
+  animation: fadeSlideScaleIn 1.3s ease forwards;
+  animation-delay: 1.5s !important;
+}
+
+.btn {
+  opacity: 0;
+  animation: fadeSlideScaleIn 1.3s ease forwards;
+  animation-delay: 1.9s !important;
+}

@@ -148,3 +148,57 @@
     color: #1a8bdd; 
     transform-origin: center bottom;
   }
+
+
+
+  /* Hide hamburger on desktop */
+.hamburger {
+  display: none;
+  flex-direction: column;
+  cursor: pointer;
+  background: none;
+  border: none;
+  padding: 8px;
+  gap: 5px;
+}
+
+.hamburger-line {
+  width: 25px;
+  height: 3px;
+  background-color: #102334;
+  border-radius: 2px;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  .landing__nav-links {
+    display: none;
+    position: absolute;
+    top: 70px; /* below navbar */
+    right: 0;
+    background: white;
+    width: 200px;
+    flex-direction: column;
+    gap: 15px;
+    padding: 15px;
+    border: 1px solid #ececec;
+    border-radius: 4px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    z-index: 100;
+    animation: appearLinks 0.3s ease forwards;
+  }
+
+  .landing__nav-links.nav-open {
+    display: flex;
+  }
+
+  /* Show hamburger */
+  .hamburger {
+    display: flex;
+  }
+
+  /* Optional: Hide nav cta on mobile or reposition */
+  .nav__cta {
+    display: none;
+  }
+}

@@ -28,14 +28,13 @@ const IntroAnimation = ({ onFinish }) => {
 
         if (index === tasks.length - 1) {
           setTimeout(() => {
-            onFinish(); // Notify parent to hide intro
+            onFinish(); 
           }, 1500);
         }
       }, task.delay);
       timeoutIds.push(id);
     });
 
-    // Clean up timers if component unmounts
     return () => {
       timeoutIds.forEach((id) => clearTimeout(id));
     };

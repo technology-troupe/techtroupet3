@@ -1,41 +1,29 @@
 import "./hero.css";
 import { Link } from 'react-router-dom';
 
-
-
 function Hero(){
     return(
         <>
+          <div className="landing__container">
+            <section className="landing__hero">
+              <h1 className="hero__title fade-in-step1">About Us</h1>
+              <p className="hero__desc fade-in-step2">
+                Driving Innovation, Empowering Businesses Worldwide
+              </p>
+            </section>
 
-  <div className="landing__container">
-
-  
-  <section className="landing__hero">
-    <h1 className="hero__title">About Us</h1>
-    <p className="hero__desc">
-      Driving Innovation, Empowering Businesses Worldwide
-    </p>
-  </section>
-
-  
-  <div className="landing__clients">
-    <div className="clients__heading">
-      At T3, we are more than just a service provider—we’re your trusted partner<br/> in engineering success. With decades of experience and a commitment to excellence,<br/> we deliver tailored solutions that help businesses, from startups to global enterprises,<br/> achieve their goals.
-    </div>
-    <div className="btn">
-      <Link to="/contact"><button>Get a consultantion</button></Link>
-      <Link to="/casestudy">View Case Studies</Link>
-        
-    </div>
-   
-    </div>
-  </div>
-
+            <div className="landing__clients">
+              <div className="clients__heading fade-in-step3">
+                At T3, we are more than just a service provider—we’re your trusted partner<br/> in engineering success. With decades of experience and a commitment to excellence,<br/> we deliver tailored solutions that help businesses, from startups to global enterprises,<br/> achieve their goals.
+              </div>
+              <div className="btn">
+                <Link to="/contact"><button>Get a consultantion</button></Link>
+                <Link to="/casestudy">View Case Studies</Link>
+              </div>
+            </div>
+          </div>
         </>
     )
 }
-
-
-
 
 export default Hero;
