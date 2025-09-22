@@ -1,4 +1,5 @@
 import "./hero.css";
+import { Link } from 'react-router-dom';
 
 
 
@@ -22,8 +23,9 @@ function Hero(){
       At T3, we are more than just a service provider—we’re your trusted partner<br/> in engineering success. With decades of experience and a commitment to excellence,<br/> we deliver tailored solutions that help businesses, from startups to global enterprises,<br/> achieve their goals.
     </div>
     <div className="btn">
-        <button>Get a consultantion</button>
-        <a href="/casestudy">View Case Studies</a>
+      <Link to="/contact"><button>Get a consultantion</button></Link>
+      <Link to="/casestudy">View Case Studies</Link>
+        
     </div>
    
     </div>
