@@ -1,8 +1,10 @@
- .landing__container {
+.landing__container {
   background: linear-gradient(120deg, #f8f8f8 0%, #fff 100%);
   min-height: 100vh;
   min-width: 100vw;
   background-image: url('/logos/Bg.svg');
+  animation: fadeSlideScaleIn 1.4s ease forwards;
+  animation-delay: 0.3s;
 }
 
 .landing__hero {
@@ -23,20 +25,18 @@
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
+  color: black;
 }
 
 .hero__desc {
   font-size: clamp(1rem, 3vw, 1.6rem);
-  color: black;
+  color: black !important;
   font-weight: 700;
   margin-top: -0.8rem;
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
-}
-
-.hero__desc--alt {
-  color: black;
+  font-size: 2.8rem !important;
 }
 
 .hero__actions {
@@ -57,11 +57,10 @@
 }
 
 .landing__clients {
-  background: #fff;
+  background: transparent;
   padding: 2rem 0;
   border-top: 1px solid #ececec;
   margin-bottom: 32px;
-  background: transparent;
 }
 
 .clients__heading {
@@ -72,9 +71,10 @@
 
 .clients__list {
   display: flex;
-  justify-content: center;
+  justify-content: start;
   align-items: center;
   gap: 40px;
+  animation: marquee 14s linear infinite;
 }
 
 .client__item {
@@ -101,12 +101,6 @@
   50% {
     transform: scale(1.05);
   }
-}
-
-
-.landing__container {
-  animation: fadeSlideScaleIn 1.4s ease forwards;
-  animation-delay: 0.3s;
 }
 
 .landing__container h1,
@@ -139,7 +133,6 @@
   opacity: 1 !important;
 }
 
-
 .landing__container h1:hover,
 .landing__container h2:hover,
 .landing__container h3:hover {
@@ -153,14 +146,6 @@
   transition: transform 0.3s ease;
 }
 
-.clients__list {
-  display: flex;
-  justify-content: start;
-  align-items: center;
-  gap: 40px;
-  animation: marquee 14s linear infinite;
-}
-
 @keyframes marquee {
   0% { transform: translateX(0); }
   100% { transform: translateX(-50%); }
@@ -171,21 +156,4 @@
   .hero__desc {
     font-size: 1rem;
   }
-}
-
-.landing__container button:hover,
-.landing__container button:focus,
-.landing__container button:active,
-.landing__container a:hover,
-.landing__container a:focus,
-.landing__container a:active {
-  animation: pulse 1.2s infinite ease-in-out;
-  cursor: pointer;
-  opacity: 1 !important;
-}
-
-.landing__container button:hover,
-.landing__container a:hover {
-  animation: pulse 1.2s infinite ease-in-out;
-  cursor: pointer;
 }
