@@ -1,4 +1,6 @@
 import "./hero.css";
+import { Link } from 'react-router-dom';
+
 
 
 
@@ -23,9 +25,9 @@ function Hero(){
         From startups to multinational enterprises, our services are designed to address your unique challenges and help you achieve measurable success.
     </div>
     <div className="btn">
-      <a href="/contact"><button>Get a consultantion</button></a>
+      <Link to="/contact"><button>Get a consultantion</button></Link>
+      <Link to="/solution">View Our Services</Link>
         
-        <a href="/solution">View Our Services</a>
     </div>
    
     </div>
