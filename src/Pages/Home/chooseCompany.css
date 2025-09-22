@@ -24,7 +24,7 @@
 
 
 .image_section img {
-  height: 250px; /* Set consistent image height */
+  height: 250px; 
   object-fit: contain;
   
 }

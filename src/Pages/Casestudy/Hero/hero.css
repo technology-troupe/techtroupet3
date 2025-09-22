@@ -19,9 +19,11 @@
 }
 .landing__hero {
   max-width: 900px;
-  margin: 4rem auto;
+  margin: 4rem auto 2rem auto;
+
   padding: 0 2rem;
   text-align: center;
+  
 }
 
 .hero__title {
@@ -45,10 +47,11 @@
 
 .landing__clients {
   background: #fff;
-  padding: 2rem 0;
+  padding: 1rem 0;
   border-top: 1px solid #ececec;
   margin-bottom: 32px;
   background: transparent;
+
 }
 
 .clients__heading {
