@@ -1,17 +1,15 @@
-import Navbar from "../../components/navbar";
 import './casestudy.css';
-import Hero from './Hero/Hero';
-import GetIn from "../Home/GetIn";
+import Hero from "../../components/Hero/Hero";
+import { HERO_CONTENT } from "../../data/constants";
+import GetIn from "../Home/components/GetIn/GetIn";
 import Featured from "./Featured/Featured";
+
 function caseStudy(){
     return(
         <>
-        <Hero/>
+        <Hero {...HERO_CONTENT.casestudy} />
         <Featured/>
         <GetIn/>
-        
-
-        
         </>
     )
 }

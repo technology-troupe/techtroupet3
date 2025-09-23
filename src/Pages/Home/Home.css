@@ -1,65 +1,36 @@
-  .landing__container {
-    background: linear-gradient(120deg, #f8f8f8 0%, #fff 100%);
-    min-height: 100vh;
-    min-width: 100vw;
-    background-image: url('/logos/Bg.svg');
+/* Home page specific styles for Hero component override */
+.home-hero .landing__container {
     animation: fadeSlideScaleIn 1.4s ease forwards;
     animation-delay: 0.3s;
   }
 
-
-  .landing__hero {
-    max-width: 900px;
-    margin: 4rem auto;
-    padding: 0 2rem;
-    text-align: center;
-    overflow: hidden;
-    padding-top: 15rem;
-  }
-
-
-  .hero__title {
-    font-size: clamp(2rem, 6vw, 4rem);
-    margin: 0 0 0 !important;
-    font-weight: 700;
+.home-hero .hero__title {
+    font-size: clamp(2rem, 6vw, 4rem) !important;
+    color: black !important;
     animation: fadeSlideScaleIn 2s cubic-bezier(0.68, -0.55, 0.27, 1.55) forwards;
-    animation-delay: 0.4s;
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    color: black;
+    animation-delay: 0.7s;
+    opacity: 0;
   }
 
-
-  .hero__desc {
-    font-size: clamp(1rem, 3vw, 1.6rem);
+.home-hero .hero__desc {
+    font-size: 2.8rem !important;
     color: black !important;
     font-weight: 700;
-    margin-top: -0.8rem;
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    font-size: 2.8rem !important;
+    animation: fadeSlideScaleIn 1.3s ease forwards;
+    animation-delay: 1.2s;
+    opacity: 0;
   }
 
-
-  .hero__actions {
-    display: flex;
-    justify-content: center;
+.home-hero .hero__resc {
+    animation: fadeSlideScaleIn 1.3s ease forwards;
+    animation-delay: 0.4s;
+    opacity: 0;
   }
 
-
-  .hero__cta {
-    padding: 0.5rem 1.3rem;
-    border-radius: 4px;
-    text-decoration: none;
-    font-weight: 600;
-  }
-
-
-  .hero__cta--primary {
-    background: #102334;
-    color: #fff;
+.home-hero .hero__cta {
+    animation: fadeSlideScaleIn 1.3s ease forwards;
+    animation-delay: 1.3s;
+    opacity: 0;
   }
 
 
