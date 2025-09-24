@@ -1,9 +1,7 @@
-/* Hero component styles - consolidated from all pages */
 
-/* Landing container and hero section styles */
 .landing__container {
   background: linear-gradient(120deg, #f8f8f8 0%, #fff 100%);
-  min-height: calc(100vh - 80px); /* Account for navbar height */
+  min-height: calc(100vh - 80px); 
   width: 100%;
   padding: 0;
   margin: 0;
@@ -120,7 +118,6 @@
   color: #0056b3;
 }
 
-/* Animation classes */
 .fade-in-step1 {
   animation: fadeIn 0.8s ease-in;
 }
@@ -144,7 +141,6 @@
   }
 }
 
-/* Responsive design */
 @media (max-width: 1024px) {
   .landing__hero {
     padding: 3rem 1.5rem 2rem 1.5rem;
@@ -161,7 +157,7 @@
 
 @media (max-width: 768px) {
   .landing__container {
-    min-height: calc(100vh - 70px); /* Account for smaller navbar on mobile */
+    min-height: calc(100vh - 70px); 
   }
 
   .landing__hero {
@@ -221,4 +217,4 @@
     font-size: 1.1rem;
     margin-bottom: 1.5rem;
   }
-}
+} 

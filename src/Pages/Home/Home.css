@@ -1,4 +1,4 @@
-/* Home page specific styles for Hero component override */
+Home page specific styles for Hero component override
 .home-hero .landing__container {
     animation: fadeSlideScaleIn 1.4s ease forwards;
     animation-delay: 0.3s;

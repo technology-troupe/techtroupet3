@@ -9,7 +9,9 @@ const Home = React.memo(() => {
     return (
         <>
             <div className="home-hero">
-                <Hero {...HERO_CONTENT.home} />
+                {/* <Hero {...HERO_CONTENT.home} /> */}
+                <Hero {...HERO_CONTENT.home} page="home" />
+
             </div>
             
             <div className="landing__clients">
