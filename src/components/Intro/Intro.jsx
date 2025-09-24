@@ -14,6 +14,8 @@ const IntroAnimation = ({ onFinish }) => {
       { msg: "Ciao", delay: 1200 },
       { msg: "Konnichiwa", delay: 1400 },
       { msg: "Annyeong", delay: 1600 },
+      { msg: "Zdravstvuyte", delay: 1800 },
+      
     ];
 
     let timeoutIds = [];

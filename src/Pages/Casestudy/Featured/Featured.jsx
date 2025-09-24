@@ -43,3 +43,4 @@ const Featured = React.memo(() => {
 });
 
 export default Featured;
+
