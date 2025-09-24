@@ -113,14 +113,14 @@ Home page specific styles for Hero component override
     animation-delay: 1.3s;
   }
 
-
+/* 
   .landing__container button:hover,
   .landing__container a:hover {
     animation: pulse 1.2s infinite ease-in-out;
     cursor: pointer;
     opacity: 1 !important;
     transition: none !important;
-  }
+  } */
 
 
   .landing__container h1:hover,
