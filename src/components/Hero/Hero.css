@@ -52,11 +52,11 @@
 
 .hero__cta {
   display: inline-block;
-  padding: 1rem 2rem;
-  background: #007bff;
-  color: white;
+  padding: 0.6rem 1.5rem;
+  background: #102334;
+  color: #fff;
   text-decoration: none;
-  border-radius: 5px;
+  border-radius: 6px;
   font-weight: 600;
   transition: all 0.3s ease;
 }

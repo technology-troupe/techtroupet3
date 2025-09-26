@@ -1,3 +1,180 @@
+/* Double-door hero 3D swing effect */
+.home-hero .landing__container {
+  position: relative;
+  overflow: hidden;
+  perspective: 1200px; /* 3D perspective */
+}
+
+/* Left and right door panels */
+.home-hero .landing__container::before,
+.home-hero .landing__container::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  width: 50%;
+  height: 100%;
+  background: white; /* match your page background */
+  z-index: 10;
+  transform-origin: center;
+  backface-visibility: hidden;
+}
+
+/* Left door */
+.home-hero .landing__container::before {
+  left: 0;
+  transform-origin: left;
+  animation: leftDoorSwing 1.5s ease forwards;
+}
+
+/* Right door */
+.home-hero .landing__container::after {
+  right: 0;
+  transform-origin: right;
+  animation: rightDoorSwing 1.5s ease forwards;
+}
+
+/* Left door swing animation */
+@keyframes leftDoorSwing {
+  0% {
+    transform: rotateY(0deg);
+  }
+  100% {
+    transform: rotateY(-90deg); /* swings outward */
+  }
+}
+
+/* Right door swing animation */
+@keyframes rightDoorSwing {
+  0% {
+    transform: rotateY(0deg);
+  }
+  100% {
+    transform: rotateY(90deg); /* swings outward */
+  }
+}
+
+/* Existing content animations, delayed after doors open */
+
+.landing__container .hero__resc {
+  opacity: 0;
+  animation: fadeSlideScaleIn 1s ease forwards;
+  animation-delay: 1.4s;
+}
+
+
+.landing__container .hero__title {
+  opacity: 0;
+  animation: fadeSlideScaleIn 1.2s ease forwards;
+  animation-delay: 1.6s; /* after doors swing */
+  margin-bottom: 0.4rem;
+}
+
+
+.landing__container .hero__desc {
+  opacity: 0;
+  animation: fadeSlideScaleIn 1.3s ease forwards;
+  animation-delay: 1.9s;
+  margin-top: 0.2rem;
+}
+
+.landing__container .clients__heading {
+  opacity: 0;
+  animation: fadeSlideScaleIn 1.4s ease forwards;
+  animation-delay: 2.3s;
+}
+
+.landing__container .hero__cta,
+.landing__container button,
+.landing__container a {
+  opacity: 0;
+  animation: fadeSlideScaleIn 1.3s ease forwards;
+  animation-delay: 2.6s;
+}
+
+/* Rest of your CSS remains unchanged */
+.home-hero .hero__title {
+  font-size: clamp(2rem, 6vw, 4rem) !important;
+  color: black !important;
+}
+
+.home-hero .hero__desc {
+  font-size: 2.8rem !important;
+  color: black !important;
+  font-weight: 700;
+}
+
+.landing__clients {
+  background: transparent;
+  padding: 2rem 0;
+  border-top: 1px solid #ececec;
+  margin-bottom: 32px;
+}
+
+.clients__list {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 40px;
+  animation: marquee 14s linear infinite;
+}
+
+.client__item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.client__item:hover {
+  transform: scale(1.05);
+  transition: transform 0.3s ease;
+}
+
+@keyframes fadeSlideScaleIn {
+  0% {
+    opacity: 0;
+    transform: translateY(40px) scale(0.95);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
+
+@keyframes pulse {
+  0%, 100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.05);
+  }
+}
+
+@keyframes marquee {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}
+
+.landing__container h1:hover,
+.landing__container h2:hover,
+.landing__container h3:hover {
+  text-shadow: 0 0 10px rgba(16, 35, 52, 0.5);
+  transition: text-shadow 0.3s ease;
+  cursor: default;
+}
+
+@media (max-width: 400px) {
+  .hero__title,
+  .hero__desc {
+    font-size: 1rem;
+  }
+}
+
+
+
+
+
+
+/* 
 .home-hero .landing__container {
   animation: fadeSlideScaleIn 1.4s ease forwards;
   animation-delay: 0.3s;
@@ -7,12 +184,14 @@
   opacity: 0;
   animation: fadeSlideScaleIn 1.3s ease forwards;
   animation-delay: 0.5s; 
+  margin-bottom: 0.4rem; 
 }
 
 .landing__container .hero__desc {
   opacity: 0;
   animation: fadeSlideScaleIn 1.3s ease forwards;
   animation-delay: 1s; 
+  margin-top: 0.2rem;
 }
 
 .landing__container .clients__heading {
@@ -105,4 +284,4 @@
     font-size: 1rem;
   }
 }
-
+ */
