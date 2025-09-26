@@ -1,7 +1,3 @@
-
-
-
-
 import React, { useState, useEffect } from "react";
 import IntroAnimation from './components/Intro/Intro';
 import { BrowserRouter, Routes, Route, useLocation } from 'react-router-dom';
@@ -13,6 +9,13 @@ import CaseStudy from './Pages/Casestudy/CaseStudy';
 import Solution from './Pages/Solution/Solution';
 import Contact from './Pages/contact/Contact';
 import ProjectDetails from './Pages/ProjectDetails/ProjectDetails';
+import MyProjectDetails from "./Pages/ProjectDetails/MyProjectDetails";
+import { My_Project } from './data/constants';  
+
+
+
+
+
 
 function ScrollToTop() {
   const { pathname } = useLocation();
@@ -56,6 +59,8 @@ function App() {
           <Route path="/about" element={<About />} />
           <Route path="/casestudy" element={<CaseStudy />} />
           <Route path="/casestudy/:slug" element={<ProjectDetails />} />
+          <Route path="/mycasestudy/:slug" element={<MyProjectDetails />} />
+
           <Route path="/solution" element={<Solution />} />
           <Route path="/contact" element={<Contact />} />
         </Routes>

@@ -4,6 +4,7 @@ import { CASE_STUDIES } from '../../data/constants';
 import Hero from '../../components/Hero/Hero';
 import './ProjectDetails.css';
 
+
 const ProjectOverview = React.memo(({ caseStudy }) => (
   <section className="project-overview">
     <div className="overview-container">
@@ -158,3 +159,5 @@ const ProjectDetails = () => {
 };
 
 export default ProjectDetails;
+
+
