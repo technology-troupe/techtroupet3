@@ -7,7 +7,7 @@ function SuccessStory(){
      <div className="landing_container">
         <div className="firsttext"> 
             <h1 className="success">Success Stories</h1>
-            <p className="recs">Explore how we've tranformed challenge into opportunities,driving success for businesses across industries worldwide.</p>
+            <p className="recs">Explore how we've transformed challenge into opportunities,driving success for businesses across industries worldwide.</p>
         </div>
         
             <div className="whole_section">
