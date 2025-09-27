@@ -6,10 +6,10 @@ import IntroAnimation from './components/Intro';
 import { BrowserRouter, Routes, Route, useLocation } from 'react-router-dom'; // ⬅️ added useLocation
 import Home from "./Pages/Home/Home";
 import Ourexpertise from './Pages/Home/Ourexpertise';
-import OurImpact from "./Pages/Home/ourimpact";
-import Choosecompany from './Pages/Home/chooseCompany';
+import OurImpact from "./Pages/Home/OurImpact";
+import Choosecompany from './Pages/Home/Choosecompany';
 import SuccessStory from './Pages/Home/SuccessStory';
-import Faqs from './Pages/Home/faqs';
+import Faqs from './Pages/Home/Faqs';
 import GetIn from './Pages/Home/GetIn';
 import Footer from './Pages/Home/Footer';
 import Navbar from './components/navbar';
