@@ -1,7 +1,7 @@
     import './solution.css';
     import Navbar from '../../components/navbar';
     import Hero from './Hero/Hero'
-    import Ourexpertise from '../Home/ourexpertise';
+    import Ourexpertise from '../Home/Ourexpertise';
     import GetIn from '../Home/GetIn';
 
     function Solution(){
