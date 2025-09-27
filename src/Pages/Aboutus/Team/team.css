@@ -23,7 +23,7 @@
 .image-row {
   display: flex;
   flex-direction: row;
-  gap: 60px;
+  gap: 30px;
   justify-content: center;
   align-items: flex-start;
   padding-top: 20px;

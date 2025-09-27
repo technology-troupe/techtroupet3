@@ -1,7 +1,3 @@
-
-
-
-
 import React, { useState, useEffect } from "react";
 import IntroAnimation from './components/Intro/Intro';
 import { BrowserRouter, Routes, Route, useLocation } from 'react-router-dom';
@@ -13,6 +9,15 @@ import CaseStudy from './Pages/Casestudy/CaseStudy';
 import Solution from './Pages/Solution/Solution';
 import Contact from './Pages/contact/Contact';
 import ProjectDetails from './Pages/ProjectDetails/ProjectDetails';
+import MyProjectDetails from "./Pages/ProjectDetails/MyProjectDetails";
+import { My_Project } from './data/constants';  
+import Ourexpertise from "./Pages/Home/components/OurExpertise/OurExpertise";
+import ServiceDetail from "./Pages/Home/components/OurExpertise/serviceDetail";
+
+
+
+
+
 
 function ScrollToTop() {
   const { pathname } = useLocation();
@@ -53,16 +58,20 @@ function App() {
         <Navbar />
         <Routes>
           <Route path="/" element={<Main />} />
+          <Route path="/services" element={<Ourexpertise />} />
+          <Route path="/services/:slug" element={<ServiceDetail />} />
+
           <Route path="/about" element={<About />} />
           <Route path="/casestudy" element={<CaseStudy />} />
           <Route path="/casestudy/:slug" element={<ProjectDetails />} />
+          <Route path="/mycasestudy/:slug" element={<MyProjectDetails />} />
           <Route path="/solution" element={<Solution />} />
           <Route path="/contact" element={<Contact />} />
         </Routes>
         <Footer />
       </BrowserRouter>
     </>
-  );
+  );  
 }
 
 export default App;

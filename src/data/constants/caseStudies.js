@@ -129,7 +129,7 @@ export const CASE_STUDIES = [
       keyPoints: [
         "Fragmented systems across 50+ locations",
         "Inconsistent inventory management",
-        "Poor visibility into sales performance",
+        "Poor visibility into sales performance", 
         "Manual reporting processes causing delays",
         "Inability to track customer behavior across stores"
       ]

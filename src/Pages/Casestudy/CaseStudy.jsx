@@ -3,12 +3,14 @@ import Hero from "../../components/Hero/Hero";
 import { HERO_CONTENT } from "../../data/constants";
 import GetIn from "../Home/components/GetIn/GetIn";
 import Featured from "./Featured/Featured";
+import PaginatedProjects from "./Projects/PaginatedProjects";
 
 function caseStudy(){
     return(
         <>
         <Hero {...HERO_CONTENT.casestudy} />
         <Featured/>
+        <PaginatedProjects/>
         <GetIn/>
         </>
     )

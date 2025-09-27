@@ -18,7 +18,9 @@ function JoinUs(){
                 <div className="image3"><img src="/logos/join3.svg" alt="" /><h2>Recognition & Rewards</h2>
                 <p>Your contributions are valued, and we <br/>celebrate achievements big and small.</p></div>
             </div>
-            <div className="landing_btn"><button>Join Our Team</button></div>
+            <div className="landing_btn">If you want to join us mail to</div>
+            <div className="landing_btn"><a href='mailto:team@technologytroupe.com'>Join Our Team</a></div>
+
         </div>
         </>
     )

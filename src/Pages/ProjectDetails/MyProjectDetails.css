@@ -1,0 +1,153 @@
+
+
+body{
+  min-width: 100vw;
+  min-height: 100vh;
+  /* background-image: url("./logos/Bg.svg"); */
+}
+
+.my-project-details {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-image: url("/logos/Bg.svg");
+  min-width: 100vw;
+  
+  
+}
+
+.hero-section {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.hero-section h1 {  
+  font-size: 2.5rem;
+  color: #2291d6;
+  margin-bottom: 12px;
+}
+
+.hero-section .short-description {
+  font-size: 1.15rem;
+  color: #555;
+  font-weight: 400;
+}
+
+.project-overview {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 40px;
+  gap: 20px;
+  flex-wrap: wrap;
+  background-image: url("./logos/Bg.svg");
+  
+}
+
+.overview-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.overview-content {
+  flex: 1;
+  min-width: 280px;
+}
+
+.project-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+  margin-bottom: 24px;
+}
+
+.meta-item h4 {
+  font-weight: 600;
+  margin-bottom: 6px;
+  color: #2291d6;
+  font-size: 1.05rem;
+}
+
+.meta-item p {
+  font-size: 0.95rem;
+  color: #444;
+  margin: 0;
+}
+
+.technologies h4 {
+  margin-bottom: 10px;
+  font-weight: 600;
+  color: #2291d6;
+}
+
+.tech-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.tech-tag {
+  background-color: #d0e6f8;
+  color: #115293;
+  padding: 6px 12px;
+  border-radius: 15px;
+  font-size: 0.9rem;
+}
+
+.overview-image {
+  flex: 1;
+  min-width: 280px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.overview-image img {
+  max-width: 100%;
+  border-radius: 8px;
+  object-fit: cover;
+  box-shadow: 0 4px 18px rgba(0, 0, 0, 0.07);
+}
+
+.project-section {
+  margin-bottom: 40px;
+  padding: 20px;
+  /* background: #f9fafc; */
+  border-radius: 8px;
+  box-shadow: 0 4px 15px rgba(34, 145, 214, 0.07);
+}
+
+.project-section h2 {
+  color: #2291d6;
+  margin-bottom: 16px;
+  font-weight: 700;
+  font-size: 1.6rem;
+
+}
+
+.project-section p {
+  color: #444;
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+.solution-list {
+  list-style-type: disc;
+  padding-left: 20px;
+  color: #444;
+  font-size: 1rem;
+  line-height: 1.45;
+}
+
+.solution-list li {
+  margin-bottom: 10px;
+}
+
+.feedback-section p {
+  font-style: italic;
+  color: #3a3a3a;
+}

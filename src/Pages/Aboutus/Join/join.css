@@ -1,49 +1,50 @@
-.landing_container {
-    font-family: 'sans-serif';
-    background: linear-gradient(120deg, #f8f8f8 0%, #fff 100%);
-    min-height: 100vh;
-    padding: 3rem 0;
-    background-image: url('/logos/Bg.svg');
-}
-.image_section{
-       display: flex;
-  flex-wrap: wrap;
-  gap: 40px 32px;
-  justify-content: center;
-}
-.image1 h2{
-    font-weight: 700;
-}
-.image2 h2{
-    font-weight: 700;
-}
-.image3 h2{
-    font-weight: 700;
-}
-
-.landing_btn{
-     display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 40px;
-  text-decoration: none;
-  padding-top: 30px;
-}
+  .landing_container {
+      font-family: 'sans-serif';
+      background: linear-gradient(120deg, #f8f8f8 0%, #fff 100%);
+      min-height: 100vh;
+      padding: 3rem 0;
+      background-image: url('/logos/Bg.svg');
+  }
+  .image_section{
+        display: flex;
+    flex-wrap: wrap;
+    gap: 40px 32px;
+    justify-content: center;
+  }
+  .image1 h2{
+      font-weight: 700;
+  }
+  .image2 h2{
+      font-weight: 700;
+  }
+  .image3 h2{
+      font-weight: 700;
+  }
 
 
+  .landing_btn{
+      display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    text-decoration: none;
+    padding-top: 30px;
+  }
 
 
-.image_section img {
-  height: 250px; /* Set consistent image height */
-  object-fit: contain;
+
+
+  .image_section img {
+    height: 250px; /* Set consistent image height */
+    object-fit: contain;
+    
+  }
+
+  .image_section img:hover {
+    transform: scale(1.08);
+    transition: transform 0.5s ease;
+  }
+
+
+
   
-}
-
-.image_section img:hover {
-  transform: scale(1.08);
-  transition: transform 0.5s ease;
-}
-
-
-
- 

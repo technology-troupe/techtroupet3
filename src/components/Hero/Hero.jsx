@@ -9,8 +9,8 @@ const Hero = React.memo(({
   content, 
   primaryButton, 
   secondaryButton,
-  showActions = true,
-  className = ""
+  className = "",
+  page // 👈 add a prop to know which page we are on
 }) => {
   return (
     <div className={`landing__container ${className}`}>
@@ -18,18 +18,23 @@ const Hero = React.memo(({
         {subtitle && <p className="hero__resc">{subtitle}</p>}
         <h1 className="hero__title" dangerouslySetInnerHTML={{ __html: title }} />
         <p className="hero__desc">{description}</p>
-        {showActions && primaryButton && (
+
+        {/* Show one button only for home page */}
+        {page === "home" && primaryButton && (
           <div className="hero__actions">
-            <a href={primaryButton.link} className="hero__cta hero__cta--primary">
+            <Link to={primaryButton.link} className="hero__cta hero__cta--primary">
               {primaryButton.text}
-            </a>
+            </Link>
           </div>
         )}
       </section>
 
       {content && (
         <div className="landing__clients">
-          <div className="clients__heading" dangerouslySetInnerHTML={{ __html: content }} />
+          <div
+            className="clients__heading"
+            dangerouslySetInnerHTML={{ __html: content }}
+          />
           {(primaryButton || secondaryButton) && (
             <div className="btn">
               {primaryButton && (
@@ -38,7 +43,9 @@ const Hero = React.memo(({
                 </Link>
               )}
               {secondaryButton && (
-                <Link to={secondaryButton.link}>{secondaryButton.text}</Link>
+                <Link to={secondaryButton.link}>
+                  {secondaryButton.text}
+                </Link>
               )}
             </div>
           )}

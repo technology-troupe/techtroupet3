@@ -1,17 +1,28 @@
   @import "tailwindcss";
 
+
+
+
   .landing__nav {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    background: #fff;
-    border-bottom: 1px solid #ececec;
-    position: sticky;
-    top: 0;
-    padding: 0.8rem 2rem;
-    z-index: 1000;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
-  }
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #fff;
+  border-bottom: 1px solid #ececec;
+  position: fixed;  
+  top: 0;
+  left: 0;          
+  width: 100vw;     
+  max-width: 100%;  
+  padding: 0.8rem 2rem;
+  z-index: 1000;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+  box-sizing: border-box; 
+}
+
+body, main {
+  padding-top: 80px; 
+}
 
   .landing__nav-brand {
     display: flex;
@@ -69,7 +80,7 @@
     display: block;
     object-fit: contain;
     margin: 0;
-    animation: rotateLogo 8s linear infinite; /* Slow continuous rotation */
+    animation: rotateLogo 8s linear infinite; 
   }
 
 
@@ -99,7 +110,6 @@
   .landing__nav-links .nav__link {
     position: relative;
     transition: color 0.3s cubic-bezier(0.4,0,0.2,1);
-    /* Prepare underline animation */
   }
 
   .landing__nav-links .nav__link::after {
@@ -110,7 +120,6 @@
     background: #102334;
     transform: scaleX(0);
     transition: transform 0.3s cubic-bezier(0.4,0,0.2,1);
-    /* Underline hidden initially */
   }
 
   .landing__nav-links .nav__link:hover,
@@ -121,7 +130,6 @@
   .landing__nav-links .nav__link:hover::after,
   .landing__nav-links .nav__link:focus::after {
     transform: scaleX(1);
-    /* Underline expands on hover */
   }
 
   .landing__nav-links {
@@ -160,9 +168,6 @@
     transform-origin: center bottom;
   }
 
-
-
-  /* Hide hamburger on desktop */
 .hamburger {
   display: none;
   flex-direction: column;
@@ -180,7 +185,6 @@
   border-radius: 2px;
 }
 
-/* Responsive styles */
 @media (max-width: 768px) {
   .landing__nav {
     padding: 0.8rem 1rem;
@@ -189,7 +193,7 @@
   .landing__nav-links {
     display: none;
     position: absolute;
-    top: 100%; /* below navbar */
+    top: 100%; 
     right: 1rem;
     background: white;
     width: 250px;
@@ -208,7 +212,6 @@
     display: flex;
   }
 
-  /* Show hamburger */
   .hamburger {
     display: flex;
   }
@@ -217,8 +220,25 @@
     height: 50px;
   }
 
-  /* Hide nav cta on mobile */
   .nav__cta {
     display: none;
   }
 }
+
+
+.landing__nav-brand {
+  transition: transform 0.6s ease;
+}
+
+.landing__nav.scrolled .landing__nav-brand {
+  transform: translateX(150px); 
+}
+
+.nav__cta {
+  transition: transform 0.6s ease;
+}
+
+.landing__nav.scrolled .nav__cta {
+  transform: translateX(-150px);
+}
+
