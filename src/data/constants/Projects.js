@@ -17,7 +17,6 @@ export const My_Project =[
            },
             Solved:[
                 "Developed a custom survey app with an intuitive interface for easy survey creation and management",
-                "Integrated the survey app seamlessly with HubSpot and the client’s existing WordPress ecosystem to automate data flow"
             ],
             Feedback:"The client reported significantly improved operational efficiency and user engagement with the new survey application. The integration with HubSpot boosted lead generation quality and speed, while real-time data access allowed quicker decision-making. The customization options and ease of use were highlighted as major advantages, contributing to a superior client experience and expanded service offerings."
 },
@@ -40,7 +39,6 @@ export const My_Project =[
            },
             Solved:[
                 "Developed a user-friendly travel platform with an intuitive interface for easy trip planning and bookings",
-                "Implemented seamless management of travel data for smooth operations.",
     
             ],
             Feedback:"The client appreciated the enhanced user engagement and the platform’s ability to convert visitors into customers through streamlined trip planning. Positive feedback highlighted the design aesthetics and smooth functionality that resonated with the target audience."
@@ -64,7 +62,6 @@ export const My_Project =[
            },
             Solved:[
                 "Designed a centralized grievance management system to streamline submission, tracking, and resolution.",
-                "Ensured user-friendly access and accountability throughout the process",
             ],
             Feedback:"The client valued the detailed research insights and the prototype system design, which provided a clear roadmap to improve grievance handling efficiency and enhance user satisfaction."
 },

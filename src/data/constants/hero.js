@@ -1,7 +1,7 @@
 export const HERO_CONTENT = {
   home: {
     subtitle: "SOFTWARE.TECHNICAL CONSULTANCY",
-    title: "Your Business is the Story<br />Tech is the Medium",
+    title: "Your Business is the Story<br />Tech is the Medium" ,
     description: "We're the troupe",
     primaryButton: {
       text: "Ready to Start",

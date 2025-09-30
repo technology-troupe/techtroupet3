@@ -1,6 +1,7 @@
 import React from 'react';
 import { useParams, Navigate } from 'react-router-dom';
 import { EXPERTISE_SERVICES } from '../../../../data/constants';
+import Hero from '../../../../components/Hero/Hero';
 import './ServiceDetail.css';
 
 const ServiceHero = React.memo(({ service }) => (
