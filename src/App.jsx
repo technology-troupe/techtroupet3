@@ -14,7 +14,7 @@ import ProjectDetails from './Pages/ProjectDetails/ProjectDetails';
 import MyProjectDetails from "./Pages/ProjectDetails/MyProjectDetails";
 import { My_Project } from './data/constants';  
 import Ourexpertise from "./Pages/Home/components/OurExpertise/OurExpertise";
-import ServiceDetail from "./Pages/Home/components/OurExpertise/serviceDetail";
+import ServiceDetail from "./Pages/Home/components/OurExpertise/ServiceDetail";
 
 
 
